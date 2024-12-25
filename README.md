@@ -1,5 +1,3 @@
-# PWA Chat Application
-
 <div align="center">
   <img src="https://github.com/realAndi/PWAChat/blob/master/src/imgs/appicon.png?raw=true" alt="PWAChat Logo" width="100" height="100">
   <h1>PWA Chat</h1>
