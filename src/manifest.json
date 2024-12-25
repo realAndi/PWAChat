@@ -1,0 +1,19 @@
+{
+  "name": "ShaftedTransit",
+  "short_name": "ShaftedTransit",
+  "description": "Shaft the transit.",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "start_url": "/",
+  "scope": "/",
+  "prefer_related_applications": false,
+  "icons": [
+    {
+        "src": "/imgs/appicon.png",
+        "sizes": "512x512",
+        "type": "image/png"
+    }
+  ]
+}

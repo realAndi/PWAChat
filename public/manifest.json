@@ -1,0 +1,44 @@
+{
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "start_url": "/",
+  "scope": "/",
+  "icons": [
+    {
+        "src": "/imgs/appicon.png",
+        "sizes": "512x512",
+        "type": "image/png"
+    }
+  ],
+  "shortcuts": [],
+  "screenshots": [],
+  "share_target": {
+    "action": "/share-target",
+    "method": "POST",
+    "enctype": "multipart/form-data",
+    "params": {
+      "text": "text"
+    }
+  },
+  "categories": ["utilities"],
+  "prefer_related_applications": false,
+  "handle_links": "preferred",
+  "launch_handler": {
+    "client_mode": ["focus-existing", "auto"]
+  },
+  "edge_side_panel": {
+    "preferred_width": 400
+  },
+  "scope_extensions": [
+    {"origin": "*.localhost"},
+    {"origin": "*.192.168.50.239"}
+  ],
+  "web_apps": {
+    "ios": {
+      "capable": true,
+      "statusBarStyle": "black-translucent"
+    }
+  }
+}

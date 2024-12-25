@@ -1,0 +1,6 @@
+{
+  "extends": "next/core-web-configs",
+  "rules": {
+    "react/no-unescaped-entities": "off"
+  }
+}
