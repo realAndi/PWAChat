@@ -1,0 +1,19 @@
+{
+  "name": "PWAChat",
+  "short_name": "PWAChat",
+  "description": "PWA Chat application",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "start_url": "/",
+  "scope": "/",
+  "prefer_related_applications": false,
+  "icons": [
+    {
+        "src": "/imgs/appicon.png",
+        "sizes": "512x512",
+        "type": "image/png"
+    }
+  ]
+}
